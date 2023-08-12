@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ecomx",
+    "slug": "ecomx",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ecomx"
+}
