@@ -37,10 +37,10 @@ jobs:
 
       - name: Install npm dependencies
         run: npm install
-        
-      - name: To give permission for gradlew
-        run: |
-          chmod +x ./gradlew
+
+      - name: Set execute permissions for gradlew
+        run: chmod +x android/gradlew
+
 
       - name: Build Android Release
         run: |
